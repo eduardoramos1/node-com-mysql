@@ -1,0 +1,13 @@
+<h1>Lista de Posts</h1>
+
+{{!-- Mostrar os dados que vem do bd --}}
+
+{{#each posts}}
+    <small>{{createdAt}}</small>
+    <h1>Titulo: {{titulo}}</h1>
+    <p>Conteudo: {{conteudo}}</p>
+    {{!-- cada post possui um id que foi pego no bd --}}
+    <a href="/deletar/{{id}}"> <button>Excluir</button> </a>
+    <hr />
+{{/each}}
+
