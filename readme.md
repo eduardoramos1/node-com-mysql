@@ -9,5 +9,18 @@ No arquivo ./models/db.js altere para os dados de seu banco em :
 
 ***
 
-
-Necessário instalar : sequelize, mysql2, express, handlebars e body-parser
+###
+npm i sequelize --save
+###
+###
+npm i mysql2 --save
+###
+###
+npm i express --save
+###
+###
+npm i express-handlebars --save
+###
+###
+npm i body-parser --save
+###
